@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: basic_template_development
+  pool: 5
+  username: dbuser
+  password: dbuser
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: basic_template_test
+  pool: 5
+  username: dbuser
+  password: dbuser
+
